@@ -753,8 +753,8 @@ main() {
 
   prepare_directories
   install_compose_file
-  validate_compose
   create_env
+  validate_compose
 
   pull_image
 
