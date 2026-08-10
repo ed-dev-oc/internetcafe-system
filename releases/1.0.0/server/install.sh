@@ -679,33 +679,46 @@ get_server_ip() {
 
 
 show_success() {
-  local server_ip
+    local server_ip
 
-  server_ip="$(get_server_ip)"
+    server_ip="$(get_server_ip)"
 
-  echo
-  echo "========================================"
-  echo " InternetCafe Server Installed!"
-  echo "========================================"
-  echo
-  echo "Server URL:"
-  echo "  http://${server_ip}:3000"
-  echo
-  echo "Installation directory:"
-  echo "  ${INSTALL_DIR}"
-  echo
-  echo "Configuration:"
-  echo "  ${INSTALL_DIR}/.env"
-  echo
-  echo "Storage:"
-  echo "  ${STORAGE_DIR}"
-  echo
-  echo "Useful commands:"
-  echo
-  echo "  cd ${INSTALL_DIR}"
-  echo "  sudo docker compose ps"
-  echo "  sudo docker compose logs -f"
-  echo
+    echo
+    echo "========================================"
+    echo " InternetCafe Server Installed!"
+    echo "========================================"
+    echo
+    echo "Server IP:"
+    echo "  ${server_ip}"
+    echo
+    echo "Server URL:"
+    echo "  http://${server_ip}:3000"
+    echo
+    echo "IMPORTANT:"
+    echo "  Configure this IP address as a static IP"
+    echo "  or DHCP reservation on your router."
+    echo
+    echo "  ${server_ip}"
+    echo
+    echo "Client PCs and ESP devices should use:"
+    echo
+    echo "  http://${server_ip}:3000"
+    echo
+    echo "Installation directory:"
+    echo "  ${INSTALL_DIR}"
+    echo
+    echo "Configuration:"
+    echo "  ${INSTALL_DIR}/.env"
+    echo
+    echo "Storage:"
+    echo "  ${STORAGE_DIR}"
+    echo
+    echo "Useful commands:"
+    echo
+    echo "  cd ${INSTALL_DIR}"
+    echo "  sudo docker compose ps"
+    echo "  sudo docker compose logs -f"
+    echo
 }
 
 
