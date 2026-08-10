@@ -3,9 +3,50 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HAC-InternetCafe</title>
+    <title>InternetCafe System Documentation</title>
+    <meta name="description" content="Documentation for the InternetCafe System server, desktop application, and ESP coin-slot controller.">
+    <link rel="stylesheet" href="css/docs.css">
 </head>
 <body>
-    <h1>InternetCafe System</h1>
+<header class="site-header">
+    <div class="header-inner">
+        <a class="brand" href="#/">
+            <span class="brand-mark">IC</span>
+            <span class="brand-text"><strong>InternetCafe System</strong><small>Documentation</small></span>
+        </a>
+        <button id="mobile-menu-button" class="mobile-menu-button" type="button" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+    </div>
+</header>
+
+<div class="layout">
+    <aside id="sidebar" class="sidebar">
+        <nav class="navigation" aria-label="Documentation">
+            <div class="nav-section">
+                <span class="nav-label">Documentation</span>
+                <a href="#/" data-route="home">Overview</a>
+                <a href="#/server" data-route="server">Server</a>
+                <a href="#/desktop" data-route="desktop">Desktop</a>
+                <a href="#/esp" data-route="esp">ESP</a>
+            </div>
+            <div class="nav-section">
+                <span class="nav-label">Releases / Downloads</span>
+                <a href="#/releases/1.0.0" data-route="release-1.0.0">Version 1.0.0</a>
+            </div>
+        </nav>
+    </aside>
+
+    <main class="content-area">
+        <div id="loading" class="status-message">Loading documentation...</div>
+        <article id="documentation" class="markdown-body"></article>
+        <div id="error" class="status-message error-message" hidden></div>
+    </main>
+</div>
+
+<footer class="site-footer">
+    <span>InternetCafe System</span>
+    <span>Documentation</span>
+</footer>
+
+<script type="module" src="js/docs.js"></script>
 </body>
 </html>

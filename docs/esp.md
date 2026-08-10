@@ -6,6 +6,8 @@ The ESP device connects the café's coin acceptor to the InternetCafe Server and
 
 The ESP firmware is maintained in a separate repository. This repository contains the **released firmware binary** used when deploying an InternetCafe System release.
 
+> **Source Code:** [InternetCafe ESP Repository](https://github.com/ed-dev-oc/InternetCafeESP)
+
 ## Role in InternetCafe System
 
 The ESP device sits between the physical coin acceptor and the InternetCafe Server.

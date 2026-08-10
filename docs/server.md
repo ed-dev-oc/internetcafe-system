@@ -6,6 +6,8 @@ It provides the central server for managing computers, user accounts, sessions, 
 
 The server runs as a Dockerized Rails application and is designed to operate on a local café network.
 
+> **Source Code:** [InternetCafe Server Repository](https://github.com/ed-dev-oc/pc-timer-rails)
+
 ## Features
 
 * Login and authentication

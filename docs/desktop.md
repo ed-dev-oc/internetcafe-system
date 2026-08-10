@@ -6,6 +6,8 @@ It is installed on each café client PC and communicates with the InternetCafe S
 
 The Desktop application is distributed as **one Windows installer** containing the required Desktop components.
 
+> **Source Code:** [InternetCafe Desktop Repository](https://github.com/ed-dev-oc/InternetCafeSystem)
+
 ## Components
 
 The Desktop installation contains three applications:
