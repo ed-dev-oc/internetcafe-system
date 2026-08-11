@@ -20,12 +20,15 @@ The server runs the central Rails application used by the InternetCafe System.
 
 **Linux**
 
-[Download `internetcafe-server.tar.gz`](./releases/1.0.0/server/internetcafe-server.tar.gz)
+[Manual Download `internetcafe-server.tar.gz`](./releases/1.0.0/server/internetcafe-server.tar.gz)
 
 Run:
 
 ```bash
-chmod +x install.sh
+curl -O https://internetcafesystem.netlify.app/releases/1.0.0/server/internetcafe-server.tar.gz
+tar -xzf internetcafe-server.tar.gz
+cd internetcafe-server
+chmod +x install.sh uninstall.sh
 sudo ./install.sh
 ```
 
