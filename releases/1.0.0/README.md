@@ -41,7 +41,7 @@ Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
 .\install.ps1
 ```
 
-See the [Server Documentation](../../docs/server.md) for installation and configuration instructions.
+See the [Server Documentation MD](../../docs/server.md) or [Server Documentation Page](/#/server) for installation and configuration instructions.
 
 ---
 
@@ -53,7 +53,7 @@ The desktop application is installed on the café client PCs.
 
 The desktop installer installs the required desktop components together.
 
-See the [Desktop Documentation](../../docs/desktop.md) for installation and configuration instructions.
+See the [Desktop Documentation MD](../../docs/desktop.md) or [Desktop Documentation Page](/#/desktop) for installation and configuration instructions.
 
 ---
 
@@ -65,7 +65,7 @@ The ESP8266 firmware is used by the coin slot controller.
 
 The firmware is intended for the NodeMCU v2 / ESP-12E ESP8266 platform.
 
-See the [ESP Documentation](../../docs/esp.md) for hardware setup, firmware flashing, and device configuration.
+See the [ESP Documentation MD](../../docs/esp.md) or [ESP Documentation Page](/#/esp) for hardware setup, firmware flashing, and device configuration.
 
 ## Release Components
 
@@ -88,9 +88,9 @@ For a new InternetCafe System installation, the recommended order is:
 
 ## Documentation
 
-* [Server Documentation](../../docs/server.md)
-* [Desktop Documentation](../../docs/desktop.md)
-* [ESP Documentation](../../docs/esp.md)
+* [Server Documentation MD](../../docs/server.md) / [Server Documentation](/#/server)
+* [Desktop Documentation MD](../../docs/desktop.md) / [SDesktoperver Documentation](../../#/server)
+* [ESP Documentation MD](../../docs/esp.md) / [ESP Documentation](/#/server)
 
 ## Release Notes
 

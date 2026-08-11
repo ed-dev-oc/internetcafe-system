@@ -43,7 +43,7 @@ The server runs as a Dockerized Rails application.
 
 See:
 
-[`docs/server.md`](docs/server.md)
+[`docs/server.md`](docs/server.md) / [`/#/server`](/#/server)
 
 ### InternetCafe Desktop
 
@@ -62,7 +62,7 @@ The desktop software is distributed through a single Windows installer that inst
 
 See:
 
-[`docs/desktop.md`](docs/desktop.md)
+[`docs/desktop.md`](docs/desktop.md) / [`/#/desktop`](/#/desktop)
 
 ### InternetCafe ESP
 
@@ -85,7 +85,7 @@ The current hardware target is a NodeMCU v2 / ESP-12E.
 
 See:
 
-[`docs/esp.md`](docs/esp.md)
+[`docs/esp.md`](docs/esp.md) / [`/#/esp`](/#/esp)
 
 ---
 
@@ -172,7 +172,7 @@ docs/
 
 ### Server Documentation
 
-[`docs/server.md`](docs/server.md)
+[`docs/server.md`](docs/server.md) / [`/#/server`](/#/server)
 
 Contains:
 
@@ -192,7 +192,7 @@ Contains:
 
 ### Desktop Documentation
 
-[`docs/desktop.md`](docs/desktop.md)
+[`docs/desktop.md`](docs/desktop.md) / [`/#/desktop`](/#/desktop)
 
 Contains:
 
@@ -206,7 +206,7 @@ Contains:
 
 ### ESP Documentation
 
-[`docs/esp.md`](docs/esp.md)
+[`docs/esp.md`](docs/esp.md) / [`/#/esp`](/#/esp)
 
 Contains:
 
@@ -280,7 +280,7 @@ Run PowerShell as an administrator and execute:
 
 The Windows server installation uses Docker Desktop with WSL2 integration.
 
-See [`docs/server.md`](docs/server.md) for complete instructions.
+See [`docs/server.md`](docs/server.md) / [`/#/server`](/#/server) for complete instructions.
 
 ## Desktop Release
 
@@ -288,7 +288,7 @@ The desktop application is distributed as a Windows installer.
 
 The installer installs the required desktop applications together as a single installation.
 
-See [`docs/desktop.md`](docs/desktop.md).
+See [`docs/desktop.md`](docs/desktop.md) / [`/#/desktop`](/#/desktop).
 
 ## ESP Release
 
@@ -302,7 +302,7 @@ firmware-1.0.0.bin
 
 The firmware can be flashed using the supported ESP flashing tool.
 
-See [`docs/esp.md`](docs/esp.md) for hardware and flashing instructions.
+See [`docs/esp.md`](docs/esp.md) / [`/#/esp`](/#/esp) for hardware and flashing instructions.
 
 ---
 
@@ -456,13 +456,13 @@ The server is built with:
 * Turbo Streams
 * Background jobs
 
-See [`docs/server.md`](docs/server.md).
+See [`docs/server.md`](docs/server.md) / [`/#/server`](/#/server).
 
 ### Desktop
 
 The desktop application is built for Windows and contains the Windows-specific client components.
 
-See [`docs/desktop.md`](docs/desktop.md).
+See [`docs/desktop.md`](docs/desktop.md) / [`/#/desktop`](/#/desktop).
 
 ### ESP
 
@@ -475,7 +475,7 @@ The ESP firmware is built using:
 * ArduinoJson
 * LittleFS
 
-See [`docs/esp.md`](docs/esp.md).
+See [`docs/esp.md`](docs/esp.md) / [`/#/esp`](/#/esp).
 
 ---
 
