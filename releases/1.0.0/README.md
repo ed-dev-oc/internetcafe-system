@@ -49,7 +49,7 @@ See the [Server Documentation MD](../../docs/server.md) or [Server Documentation
 
 The desktop application is installed on the café client PCs.
 
-[Download InternetCafe Desktop 1.0.0](./desktop/InternetCafeDesktop-1.0.0.exe)
+[Download InternetCafe Desktop 1.0.0](./releases/1.0.0/desktop/InternetCafeDesktop-1.0.0.exe)
 
 The desktop installer installs the required desktop components together.
 
@@ -61,7 +61,7 @@ See the [Desktop Documentation MD](../../docs/desktop.md) or [Desktop Documentat
 
 The ESP8266 firmware is used by the coin slot controller.
 
-[Download ESP8266 Firmware 1.0.0](./esp/firmware-1.0.0.bin)
+[Download ESP8266 Firmware 1.0.0](./releases/1.0.0/esp/firmware-1.0.0.bin)
 
 The firmware is intended for the NodeMCU v2 / ESP-12E ESP8266 platform.
 
