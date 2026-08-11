@@ -20,7 +20,7 @@ The server runs the central Rails application used by the InternetCafe System.
 
 **Linux**
 
-[Download `linux.zip`](./server/linux.zip)
+[Download `internetcafe-server.tar.gz`](./server/internetcafe-server.tar.gz)
 
 Run:
 
@@ -31,7 +31,7 @@ sudo ./install.sh
 
 **Windows**
 
-[Download `windows.zip`](./server/windows.zip)
+[Download `internetcafe-server.zip`](./server/internetcafe-server.zip)
 
 Run PowerShell as Administrator and execute:
 
