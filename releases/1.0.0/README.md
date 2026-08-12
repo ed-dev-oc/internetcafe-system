@@ -52,7 +52,7 @@ See the [Server Documentation MD](../../docs/server.md) or [Server Documentation
 
 The desktop application is installed on the café client PCs.
 
-[Download InternetCafe Desktop 1.0.0](./releases/1.0.0/desktop/InternetCafeDesktop.exe)
+[Download InternetCafe Desktop 1.0.0](./releases/1.0.0/desktop/InternetCafeDesktop-1.0.0.exe)
 
 The desktop installer installs the required desktop components together.
 
