@@ -1,1 +1,2 @@
 releases/1.0.0/desktop/InternetCafeSystem.exe filter=lfs diff=lfs merge=lfs -text
+releases/1.0.0/desktop/InternetCafeDesktop-1.0.0.exe filter=lfs diff=lfs merge=lfs -text
